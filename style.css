@@ -1,8 +1,12 @@
-.head-style{
+.head-color{
     background: #1f203a;
 }
 .head-title{
-    float: left;
     font-size: 2em;
+    color: white;
+    width: 100%;
+}
+.head-navbar-text{
+    text-decoration: none;
     color: white;
 }
