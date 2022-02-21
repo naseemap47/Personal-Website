@@ -23,3 +23,10 @@
     border: solid 8px white;
     vertical-align: middle;
 }
+.title-name{
+    font-weight: 300;
+    letter-spacing: .25em;
+    font-size: 3em;
+    text-align: center;
+    
+}
