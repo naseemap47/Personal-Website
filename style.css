@@ -1,0 +1,32 @@
+.head-color{
+    background: #1f203a;
+}
+.head-title{
+    font-size: 2em;
+    color: white;
+    width: 100%;
+}
+.head-navbar-text{
+    text-decoration: none;
+    color: white;
+}
+.body-style{
+    background: #f2f2f2;
+    width: 100%;
+    height: 25em;
+}
+.person-image{
+    width: 26em;
+    height: 26em;
+    border-radius: 50%;
+    margin-top: -21em;
+    border: solid 8px white;
+    vertical-align: middle;
+}
+.title-name{
+    font-weight: 300;
+    letter-spacing: .25em;
+    font-size: 3em;
+    text-align: center;
+    
+}
