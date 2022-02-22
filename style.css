@@ -56,3 +56,21 @@
     height: 32em;
     margin-top: -27em;
 }
+.readmore-1{
+    text-decoration: none;
+    color: #454545;
+    padding-left: 3em;
+    border: solid 0.1em black;
+    background-color: transparent;
+    padding-right: 3em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-transform: uppercase;
+}
+.readmore-1-div{
+    margin-top: 10em;
+}
+.readmore-1:hover{
+    border: none;
+    color: #454546;
+}
