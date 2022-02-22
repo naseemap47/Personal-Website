@@ -30,3 +30,23 @@
     text-align: center;
     
 }
+.service-title-1{
+    font-size: 4.5em;
+    font-weight: 300;
+}
+.service-title-2{
+    font-weight: 700;
+}
+.service-div{
+    margin-top: 8em;
+}
+.service-img-1{
+    height: 36.8em;
+    width: 34em;
+    padding-top: 3em;
+}
+.service-img-2{
+    width: 34em;
+    height: 38em;
+    padding-top: 3em;
+}
