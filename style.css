@@ -149,4 +149,36 @@
 .error{
     color: red;
     padding: 0.3em;
+    border-color: red;
+}
+.footer-background{
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.6)
+    ),
+    url(https://images03.nicepage.com/c461c07a441a5d220e8feb1a/1d7522477e8255a697949ad4/w4-min.jpg?version=);
+}
+.footer-items{
+    text-align: center;
+}
+.footer-text{
+    font-size: 1.8em;
+    color: white;
+    font-weight: 300;
+    margin-top: 7em;
+}
+.social-media-icons{
+    text-decoration: none;
+    color: white;
+    font-size: 2.8em;
+    margin-top: 1em;
+    padding: 0.3em;
+}
+.social-media-icons:hover{
+    color: black;
+    background: white;
+    border-radius: 50%;
+}
+.footer-div{
+    height: 15em;
 }
