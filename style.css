@@ -76,6 +76,7 @@
 .readmore-1:hover{
     border: none;
     color: #454546;
+    background: #fdc286;
 }
 .project-div{
     width: 100%;
@@ -107,4 +108,8 @@
     font-weight: 400;
     background: #ffa54d;
     border: none;
+}
+.project-readmore-div{
+    text-align: center;
+    margin-top: 5em;
 }
