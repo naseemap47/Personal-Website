@@ -94,3 +94,17 @@
     font-weight: 400;
     padding-top: 1.8em;
 }
+.project-title{
+    font-weight: 300;
+    line-height: 1.2;
+}
+.project-discription{
+    font-size: 0.875em;
+    font-style: italic;
+    margin-top: 2em;
+}
+.project-button{
+    font-weight: 400;
+    background: #ffa54d;
+    border: none;
+}
