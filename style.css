@@ -165,5 +165,20 @@
     font-size: 1.8em;
     color: white;
     font-weight: 300;
-    margin-top: 10em;
+    margin-top: 7em;
+}
+.social-media-icons{
+    text-decoration: none;
+    color: white;
+    font-size: 2.8em;
+    margin-top: 1em;
+    padding: 0.3em;
+}
+.social-media-icons:hover{
+    color: black;
+    background: white;
+    border-radius: 50%;
+}
+.footer-div{
+    height: 15em;
 }
