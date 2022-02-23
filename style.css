@@ -106,10 +106,43 @@
 }
 .project-button{
     font-weight: 400;
-    background: #ffa54d;
+    background: #fa9835;
     border: none;
 }
 .project-readmore-div{
     text-align: center;
     margin-top: 5em;
+}
+.contact-background{
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.45),
+        rgba(0, 0, 0, 0.45)
+    ),
+    url(https://www.collab2.co.za/wp-content/uploads/2017/06/contact-us-background.jpg);
+    position: sticky;
+    
+}
+.contact-title{
+    font-weight: 700;
+    font-size: 3em;
+    line-height: 3.3em;
+    color: white;
+}
+.contact-para{
+    color: white;
+    font-family: Montserrat,sans-serif;
+}
+.contact-label{
+    font-weight: 300;
+    color: white;
+}
+.contact-row{
+    float: left;
+}
+.contact-button{
+    background: #fd9d3e;
+    border: none;
+}
+.contact-button:hover{
+    background: #3a2e21;
 }
