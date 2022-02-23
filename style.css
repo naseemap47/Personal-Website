@@ -113,3 +113,20 @@
     text-align: center;
     margin-top: 5em;
 }
+.contact-background{
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.45),
+        rgba(0, 0, 0, 0.45)
+    ),
+    url(https://www.collab2.co.za/wp-content/uploads/2017/06/contact-us-background.jpg);
+}
+.contact-title{
+    font-weight: 700;
+    font-size: 3em;
+    line-height: 3.3em;
+    color: white;
+}
+.contact-para{
+    color: white;
+    font-family: Montserrat,sans-serif;
+}
