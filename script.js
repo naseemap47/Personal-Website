@@ -48,3 +48,26 @@ $(document).ready(function(){
         }
     })
 })
+
+$("#contact-form").submit((e)=>{
+    e.preventDefault()
+    $.ajax({
+        url:"https://script.google.com/macros/s/AKfycbykiJ4u3YLFNDfGZS-MCTp0q07JdJI1X7bdB6csjpZNFScMFSSjDKq5Nv56Q8kh0-gf/exec",
+        data:$("#contact-form").serialize(),
+        method:"post",
+        success:function (response){
+            alert("Form submitted successfully")
+            window.location.reload()
+            $(':input','#contact-form')
+                .not(':button, :submit, :reset, :hidden')
+                .val('')
+                .removeAttr('checked')
+                .removeAttr('selected');
+            //window.location.href="https://google.com"
+        },
+        error:function (err){
+            alert("Something Error")
+
+        }
+    })
+})
